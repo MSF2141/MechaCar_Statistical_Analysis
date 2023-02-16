@@ -25,5 +25,7 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 
 ## Results
 Part 1:
+![Mechacar_multiple_linear_regression](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/9c195e013fd7e4f116e0600e31b54f8ec69e7f7b/Mechacar_multiple_linear_regression.png)
+
 vehicle_length    6.267e+00  6.553e-01   9.563 2.60e-12 ***
 ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08 ***
