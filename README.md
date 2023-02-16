@@ -17,3 +17,6 @@ Three technical analysis parts and a proposal for further statistical study.
 - Part 2: Summary Statistics on Suspension Coils
 - Part 3: T-Test on Suspension Coils
 - Part 4: Design a Study Comparing the MechaCar to the Competition
+
+### Part 1: Linear Regression to Predict MPG
+The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Then, you’ll write a short interpretation of the multiple linear regression results in the README.md.
