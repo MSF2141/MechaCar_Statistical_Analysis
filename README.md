@@ -29,3 +29,10 @@ Part 1:
 
 vehicle_length    6.267e+00  6.553e-01   9.563 2.60e-12 ***
 ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08 ***
+
+
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+- Is the slope of the linear model considered to be zero? Why or why not?
+
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
