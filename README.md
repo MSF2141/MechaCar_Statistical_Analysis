@@ -48,3 +48,6 @@ ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08 ***
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
+Part 2:
+[MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R)
+
