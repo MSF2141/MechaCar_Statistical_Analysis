@@ -75,6 +75,8 @@ Part 3:
 
 ![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/1cff16fa35a37a63307dc97e53556aaad82acf5b/all_lots_ttest.png)
 
+![Lot1_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/70013cff2a32f69b9bc242ed43b0760fd5f92b61/Lot1_ttest.png)
+
 In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
 findings for the t-test results. Include screenshots of the t-test to support your summary.
 
