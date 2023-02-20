@@ -73,5 +73,8 @@ for all manufacturing lots in total and each lot individually? Why or why not?
 Part 3:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
 
+![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/1cff16fa35a37a63307dc97e53556aaad82acf5b/all_lots_ttest.png)
+
 In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
 findings for the t-test results. Include screenshots of the t-test to support your summary.
+
