@@ -37,6 +37,18 @@ statistically different from the population mean of 1,500 pounds per square inch
 In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
 findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+### Part 4: Design a Study Comparing the MechaCar to the Competition
+
+ Write a short description of a statistical study that can quantify how the MechaCar performs against the
+competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few
+examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
 
 ## Results
 Part 1:
@@ -84,3 +96,11 @@ Part 3:
 In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
 findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+
+Part 4:
+Design a Study Comparing the MechaCar to the Competition (20 points)
+To receive all points, your study must include the following:
+A metric to be tested is mentioned (5 pt)
+A null hypothesis or an alternative hypothesis is described (5 pt)
+A statistical test is described to test the hypothesis (5 pt)
+The data for the statistical test is described (5 pt
