@@ -19,7 +19,7 @@ Three technical analysis parts and a proposal for further statistical study.
 - Part 4: Design a Study Comparing the MechaCar to the Competition
 
 ### Part 1: Linear Regression to Predict MPG
-MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, design a linear model that predicts the mpg of MechaCar prototypes using several variables. 
+MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, ground clearance, and all-wheel drive (AWD) drivetrain were collected for each vehicle. In R Studio, create a linear model that predict the mpg of MechaCar prototypes using several variables. 
 
 ### Part 2: Create Visualizations for the Trip Analysis
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
