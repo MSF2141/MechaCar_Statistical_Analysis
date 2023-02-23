@@ -51,7 +51,7 @@ What data is needed to run the statistical test?
 
 
 ## Results
-Part 1:
+### Part 1:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/6225f56d75f8e0f2e22151182271204adc1ecfe9/MechaCarChallenge.R)
 
 
@@ -68,7 +68,7 @@ ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08 ***
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
-Part 2:
+### Part 2:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R)
 
 ![Total_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/b12b26cfacc2639c51c3a98481b578cd06f04b08/Total_summary%20statistics.png)
@@ -82,7 +82,7 @@ must not exceed 100 pounds per square inch. Does the current manufacturing data 
 for all manufacturing lots in total and each lot individually? Why or why not?
 
 
-Part 3:
+### Part 3:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
 
 ![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/1cff16fa35a37a63307dc97e53556aaad82acf5b/all_lots_ttest.png)
@@ -97,7 +97,7 @@ In your README, create a subheading ## T-Tests on Suspension Coils , then briefl
 findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 
-Part 4:
+### Part 4:
 Design a Study Comparing the MechaCar to the Competition (20 points)
 To receive all points, your study must include the following:
 A metric to be tested is mentioned (5 pt)
