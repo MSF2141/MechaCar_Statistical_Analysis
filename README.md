@@ -45,7 +45,7 @@ What data is needed to run the statistical test?
 
 
 ## Results
-### Linear Regression to Predict MPG:
+### 1. Linear Regression to Predict MPG:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/6225f56d75f8e0f2e22151182271204adc1ecfe9/MechaCarChallenge.R) R script and results below:
 
 
@@ -54,19 +54,15 @@ What data is needed to run the statistical test?
 From all the five (5) tested variables, vehicle length  and ground clearance can significantly predict the mpg of MechaCar prototypes (2.60e-12 and 
 5.21e-08, respectively). Correlation strenth of this multiple linear regression is moderate as evidenced by the Pearson correlation coefficient of 0.6825.
 
-### Summary Statistics on Suspension Coils:
+### 2. Summary Statistics on Suspension Coils:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R) R scripts and results below:
-![Total_and_lot_summary%20statistics_R%20script.png](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/d148a32932f2bca2616fff79222523342cc10fd6/Total_and_lot_summary%20statistics_R%20script.png.png)
+![Total_and_lot_summary%20statistics_R%20script.png](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/d148a32932f2bca2616fff79222523342cc10fd6/Total_and_lot_summary%20statistics_R%20script.png)
 
 ![Total_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/b12b26cfacc2639c51c3a98481b578cd06f04b08/Total_summary%20statistics.png)
 
-
-
 ![Lot_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/f76d3cc6fff7a0150c2ec7eabb51030f60c365af/Lot_summary%20statistics.png)
 
- the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design requirements for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
- The current manufacturing data meet this design specification
-for all manufacturing lots in total and individually for lot 1 and lot 2. Lot 3 has the variance of the suspension coils exceeding 100 pounds per square inch.
+Summary statistics of all three tested lots compbined shows that the variance of the suspension coils (62.29) does not exceed weight capacities of 100 pounds per square inch. This may suggest that manufacturing process is consistent across production lots. However, when analyzing each lot individualy, summary statistics for each lot shows that the variance of the suspension coils from Lot1 and Lot 2 (0.97 and 7.46, respectively) does not exceed weight capacities of 100 pounds per square inch. On contrary, suspension coils from Lot 3 have the variance exceeding 100 pounds per square inch (170.28).
 
 ### Part 3:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
