@@ -25,11 +25,7 @@ MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were
 MechaCars tested multiple lots of suspension coils (MechaCar Suspension_Coil.csv dataset). Specifically, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design requirements for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. In R Studio, a summary statistics table showing the following PSI metrics for each lot: mean, median, variance, and standard deviation was created.
 
 ### Part 3: T-Tests on Suspension Coils
-Perform t-tests to determine if all manufacturing lots and each lot individually are
-statistically different from the population mean of 1,500 pounds per square inch.
-
-In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
-findings for the t-test results. Include screenshots of the t-test to support your summary.
+Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ### Part 4: Design a Study Comparing the MechaCar to the Competition
 
@@ -65,8 +61,7 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 Summary statistics of all three tested lots compbined shows that the variance of all suspension coils (62.29) does not exceed weight capacities of 100 pounds per square inch. This may suggest that manufacturing process is consistent across production lots. However, when analyzing each lot individualy, summary statistics for each lot shows that the variance of the suspension coils from Lot1 and Lot 2 (0.97 and 7.46, respectively) does not exceed weight capacities of 100 pounds per square inch. In contrast, suspension coils from Lot 3 have the variance exceeding 100 pounds per square inch (170.28).
 
 ### Part 3:
-[MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
-
+[MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R) R scripts and results below:
 ![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/1cff16fa35a37a63307dc97e53556aaad82acf5b/all_lots_ttest.png)
 
 ![Lot1_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/70013cff2a32f69b9bc242ed43b0760fd5f92b61/Lot1_ttest.png)
@@ -75,9 +70,7 @@ Summary statistics of all three tested lots compbined shows that the variance of
 
 ![Lot3_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/28a79bd3cec5bc7bf85d2f1d3656b5b0a4cd9899/Lot3_ttest.png)
 
-In your README, create a subheading ## T-Tests on Suspension Coils , then briefly summarize your interpretation and
-findings for the t-test results. Include screenshots of the t-test to support your summary.
-
+T test analasis of three (3) lots of manufactured suspension coils shows that only Lot 3 is statistically different (p-value=0.041) from the population mean of 1,500 pounds per square inch.
 
 ### Part 4:
 Design a Study Comparing the MechaCar to the Competition (20 points)
