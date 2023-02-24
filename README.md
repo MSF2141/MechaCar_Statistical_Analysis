@@ -25,19 +25,10 @@ MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were
 MechaCars tested multiple lots of suspension coils (MechaCar Suspension_Coil.csv dataset). Specifically, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design requirements for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. In R Studio, a summary statistics table showing the following PSI metrics for each lot: mean, median, variance, and standard deviation was created.
 
 ### Part 3: T-Tests on Suspension Coils
-Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Analyze using a t-test whether all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ### Part 4: Design a Study Comparing the MechaCar to the Competition
-
- Write a short description of a statistical study that can quantify how the MechaCar performs against the
-competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few
-examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Design of a statistical study that can quantify how the MechaCar performs against the competition. A few examples of the metrics of interest to a consumer: cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 
 ## Results
