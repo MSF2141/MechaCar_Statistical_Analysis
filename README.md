@@ -62,7 +62,7 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 
 ![Lot_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/f76d3cc6fff7a0150c2ec7eabb51030f60c365af/Lot_summary%20statistics.png)
 
-Summary statistics of all three tested lots compbined shows that the variance of the suspension coils (62.29) does not exceed weight capacities of 100 pounds per square inch. This may suggest that manufacturing process is consistent across production lots. However, when analyzing each lot individualy, summary statistics for each lot shows that the variance of the suspension coils from Lot1 and Lot 2 (0.97 and 7.46, respectively) does not exceed weight capacities of 100 pounds per square inch. On contrary, suspension coils from Lot 3 have the variance exceeding 100 pounds per square inch (170.28).
+Summary statistics of all three tested lots compbined shows that the variance of all suspension coils (62.29) does not exceed weight capacities of 100 pounds per square inch. This may suggest that manufacturing process is consistent across production lots. However, when analyzing each lot individualy, summary statistics for each lot shows that the variance of the suspension coils from Lot1 and Lot 2 (0.97 and 7.46, respectively) does not exceed weight capacities of 100 pounds per square inch. In contrast, suspension coils from Lot 3 have the variance exceeding 100 pounds per square inch (170.28).
 
 ### Part 3:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
