@@ -57,7 +57,7 @@ What data is needed to run the statistical test?
 
 ![Mechacar_multiple_linear_regression](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/9c195e013fd7e4f116e0600e31b54f8ec69e7f7b/Mechacar_multiple_linear_regression.png)
 
-From all the five (5) tested variables, vehicle length  and ground clearance cam significantly predict the mpg of MechaCar prototypes (2.60e-12 and 
+From all the five (5) tested variables, vehicle length  and ground clearance can significantly predict the mpg of MechaCar prototypes (2.60e-12 and 
 5.21e-08, respectively). Correlation strenth of this multiple linear regression is moderate as evidenced by the Pearson correlation coefficient of 0.6825.
 
 ### Part 2:
