@@ -22,13 +22,7 @@ Three technical analysis parts and a proposal for further statistical study.
 MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, ground clearance, and all-wheel drive (AWD) drivetrain were collected for each vehicle. In R Studio, a linear model that predict the mpg of MechaCar prototypes using several variables was created.
 
 ### Part 2: Summary Statistics on Suspension Coils
-MechaCars produced multiple lots of suspension coils (MechaCar Suspension_Coil.csv dataset). In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. In R Studio, a summary statistics table was created.
-
-The suspension coil’s PSI continuous variable across all manufacturing lots.
-
-The following PSI metrics for each lot: mean, median, variance, and standard deviation.
-
-Then, in the README.md, you’ll briefly detail and interpret the suspension coil summary statistics.
+MechaCars tested multiple lots of suspension coils (MechaCar Suspension_Coil.csv dataset). Specifically, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design requirements for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. In R Studio, a summary statistics table showing the following PSI metrics for each lot: mean, median, variance, and standard deviation was created.
 
 ### Part 3: T-Tests on Suspension Coils
 Perform t-tests to determine if all manufacturing lots and each lot individually are
@@ -62,6 +56,7 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 
 ### Summary Statistics on Suspension Coils:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R) R scripts and results below:
+![MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R)
 
 ![Total_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/b12b26cfacc2639c51c3a98481b578cd06f04b08/Total_summary%20statistics.png)
 
@@ -69,10 +64,9 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 
 ![Lot_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/f76d3cc6fff7a0150c2ec7eabb51030f60c365af/Lot_summary%20statistics.png)
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils
-must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification
-for all manufacturing lots in total and each lot individually? Why or why not?
-
+ the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design requirements for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
+ The current manufacturing data meet this design specification
+for all manufacturing lots in total and individually for lot 1 and lot 2. Lot 3 has the variance of the suspension coils exceeding 100 pounds per square inch.
 
 ### Part 3:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R)
