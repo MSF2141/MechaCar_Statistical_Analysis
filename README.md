@@ -19,10 +19,10 @@ Three technical analysis parts and a proposal for further statistical study.
 - Part 4: Design a Study Comparing the MechaCar to the Competition
 
 ### Part 1: Linear Regression to Predict MPG
-MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, ground clearance, and all-wheel drive (AWD) drivetrain were collected for each vehicle. In R Studio, a linear model that predict the mpg of MechaCar prototypes using several variables needs to be created.
+MechaCars produced 50 prototypes (MechaCar_mpg.csv dataset). The prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, ground clearance, and all-wheel drive (AWD) drivetrain were collected for each vehicle. In R Studio, a linear model that predict the mpg of MechaCar prototypes using several variables was created.
 
-### Part 2: Create Visualizations for the Trip Analysis
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+### Part 2: Summary Statistics on Suspension Coils
+MechaCars produced multiple lots of suspension coils (MechaCar Suspension_Coil.csv dataset). In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. In R Studio, a summary statistics table was created.
 
 The suspension coil’s PSI continuous variable across all manufacturing lots.
 
@@ -51,7 +51,7 @@ What data is needed to run the statistical test?
 
 
 ## Results
-### Part 1:
+### Linear Regression to Predict MPG:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/6225f56d75f8e0f2e22151182271204adc1ecfe9/MechaCarChallenge.R) R script and results below:
 
 
@@ -60,8 +60,8 @@ What data is needed to run the statistical test?
 From all the five (5) tested variables, vehicle length  and ground clearance can significantly predict the mpg of MechaCar prototypes (2.60e-12 and 
 5.21e-08, respectively). Correlation strenth of this multiple linear regression is moderate as evidenced by the Pearson correlation coefficient of 0.6825.
 
-### Part 2:
-[MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R)
+### Summary Statistics on Suspension Coils:
+[MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R) R scripts and results below:
 
 ![Total_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/b12b26cfacc2639c51c3a98481b578cd06f04b08/Total_summary%20statistics.png)
 
