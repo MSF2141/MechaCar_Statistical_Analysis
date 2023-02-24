@@ -60,7 +60,7 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 
 Summary statistics of all three tested lots compbined shows that the variance of all suspension coils (62.29) does not exceed weight capacities of 100 pounds per square inch. This may suggest that manufacturing process is consistent across production lots. However, when analyzing each lot individualy, summary statistics for each lot shows that the variance of the suspension coils from Lot1 and Lot 2 (0.97 and 7.46, respectively) does not exceed weight capacities of 100 pounds per square inch. In contrast, suspension coils from Lot 3 have the variance exceeding 100 pounds per square inch (170.28).
 
-### Part 3:
+### 3. T-Test on Suspension Coils:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/770d185d28be3722116160c99a5620201df197cb/MechaCarChallenge.R) R scripts and results below:
 ![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/1cff16fa35a37a63307dc97e53556aaad82acf5b/all_lots_ttest.png)
 
@@ -72,7 +72,17 @@ Summary statistics of all three tested lots compbined shows that the variance of
 
 T test analasis of three (3) lots of manufactured suspension coils shows that only Lot 3 is statistically different (p-value=0.041) from the population mean of 1,500 pounds per square inch.
 
-### Part 4:
+### 4. Design a Study Comparing the MechaCar to the Competition:
+To compare the performance of the MechaCar vehicles with that of vehicles from other manufacturers, I would perform statistical tests based on the data type. Assuming that numerical continuous data such as cost, maintenance cost, horsepower, city or highway fuel efficiency were available, I would use the ANOVA test. In the case of cost, maintenance cost, horse power data, I would use the one-way ANOVA; which test the means of a single dependent variable (e.g., cost) across a single independent categorical variable (e.g., car type) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). In the case of city and highway fuel efficiency data, I would use the two-way ANOVA; which tests the means of one dependent variables (e.g., fuel efficiency) across two independent categorical variables (e.g., city and highway) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). The tested null hypothesis would be H0: There is no difference in means of e.g., vehicle cost 
+"Is there any statistical difference in the cost of a vehicle based on car type – MechaCar versus vehicles from other manufacturers?"
+
+
+Assuming categorical ordinal data such as safety rating were available, I would use the Chi-squared test. It tests the distribution of frequencies across two groups. The tested null hypothesis would be  H0: There is no difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer. The alternative hypothesis would be: HA: There is a difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer.
+
+
+
+
+
 Design a Study Comparing the MechaCar to the Competition (20 points)
 To receive all points, your study must include the following:
 A metric to be tested is mentioned (5 pt)
