@@ -56,7 +56,7 @@ From all the five (5) tested variables, vehicle length  and ground clearance can
 
 ### Summary Statistics on Suspension Coils:
 [MechaCarChallenge](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/4b6b035bd99969a99f9ed85be3788f109a3c8fc6/MechaCarChallenge.R) R scripts and results below:
-![all_lots_ttest](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/df9ddc5ee80e07e552168c71f17b32d793b2b15c/all_lots_ttest.png)
+![Total_and_lot_summary%20statistics_R%20script.png](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/d148a32932f2bca2616fff79222523342cc10fd6/Total_and_lot_summary%20statistics_R%20script.png.png)
 
 ![Total_summary%20statistics](https://github.com/MSF2141/MechaCar_Statistical_Analysis/blob/b12b26cfacc2639c51c3a98481b578cd06f04b08/Total_summary%20statistics.png)
 
