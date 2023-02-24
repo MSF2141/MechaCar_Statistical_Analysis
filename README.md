@@ -73,19 +73,8 @@ Summary statistics of all three tested lots compbined shows that the variance of
 T test analasis of three (3) lots of manufactured suspension coils shows that only Lot 3 is statistically different (p-value=0.041) from the population mean of 1,500 pounds per square inch.
 
 ### 4. Design a Study Comparing the MechaCar to the Competition:
-To compare the performance of the MechaCar vehicles with that of vehicles from other manufacturers, I would perform statistical tests based on the data type. Assuming that numerical continuous data such as cost, maintenance cost, horsepower, city or highway fuel efficiency were available, I would use the ANOVA test. In the case of cost, maintenance cost, horse power data, I would use the one-way ANOVA; which test the means of a single dependent variable (e.g., cost) across a single independent categorical variable (e.g., car type) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). In the case of city and highway fuel efficiency data, I would use the two-way ANOVA; which tests the means of one dependent variables (e.g., fuel efficiency) across two independent categorical variables (e.g., city and highway) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). The tested null hypothesis would be H0: There is no difference in means of e.g., vehicle cost 
-"Is there any statistical difference in the cost of a vehicle based on car type – MechaCar versus vehicles from other manufacturers?"
+To compare the performance of the MechaCar vehicles with that of vehicles from other manufacturers, I would perform statistical tests based on the data type. 
 
+Assuming that numerical continuous data such as cost, maintenance cost, horsepower, city or highway fuel efficiency were available, I would use the ANOVA (two-tailed) test. In the case of cost, maintenance cost, horse power data, I would use the one-way ANOVA; which test the means of a single dependent variable (e.g., cost) across a single independent categorical variable (e.g., car type) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). In the case of city and highway fuel efficiency data, I would use the two-way ANOVA; which tests the means of one dependent variables (e.g., fuel efficiency) across two independent categorical variables (e.g., city and highway) with multiple groups (MechaCar vehicles and vehicles from other manufacturers). The tested null hypothesis would be H0: There is no difference in means of the e.g., vehicle cost from MechaCar compared to vehicles from other manufacturers. The alternative hypothesis would be HA: There is a difference in means of the e.g., vehicle cost from MechaCar compared to vehicles from other manufacturers. 
 
-Assuming categorical ordinal data such as safety rating were available, I would use the Chi-squared test. It tests the distribution of frequencies across two groups. The tested null hypothesis would be  H0: There is no difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer. The alternative hypothesis would be: HA: There is a difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer.
-
-
-
-
-
-Design a Study Comparing the MechaCar to the Competition (20 points)
-To receive all points, your study must include the following:
-A metric to be tested is mentioned (5 pt)
-A null hypothesis or an alternative hypothesis is described (5 pt)
-A statistical test is described to test the hypothesis (5 pt)
-The data for the statistical test is described (5 pt
+Assuming categorical ordinal data such as safety rating were available, I would use the Chi-squared test. It tests the distribution of frequencies across two groups. The tested null hypothesis would be H0: There is no difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer. The alternative hypothesis would be HA: There is a difference in frequency distribution of safety ratings between both MechaCar and vehicles from other manufacturer.
